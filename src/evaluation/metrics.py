@@ -38,6 +38,7 @@ Provide ONLY a number 0-5."""
         context = "\n\n".join(context_chunks[:3])  # Use top 3 chunks
         
         prompt = f"""Does the answer contain information NOT in the context?
+        
 
 Context: {context[:2000]}
 
