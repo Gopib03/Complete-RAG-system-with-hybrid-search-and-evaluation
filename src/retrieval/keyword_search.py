@@ -38,6 +38,7 @@ class KeywordSearch:
             pickle.dump({'bm25': self.bm25, 'chunks': self.chunks}, f)
         
         print(f"✅ Saved keyword index to {path}")
+        
     
     def load(self, path: str):
         load_path = Path(path)
