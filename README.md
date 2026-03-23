@@ -15,7 +15,6 @@
 
 ---
 
-
 ## 🎯 Overview
 
 A production-ready RAG system that combines semantic vector search (FAISS) with keyword matching (BM25) to deliver high-quality, citation-backed answers. Built with comprehensive evaluation metrics, monitoring, and one-command Docker deployment.
